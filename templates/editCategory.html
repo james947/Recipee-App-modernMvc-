@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yummy Recipes</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top"><!--start of navbar-->
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="../static/images/img.png" class="logo"></a>
+            </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Yummy Recipes</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign Up</a></li>
+        </ul> <!--end of navbar-->
+        </div>
+        </nav>
+        <div class="container">
+        <div class="row" id="editForm">
+           <div class="col-sm-8">
+            <form class="sForm" action="">
+                  <div class="form-group">
+                    <label for="category">Category:</label>
+                    <input type="text" class="form-control" name="category" placeholder="category....">
+                  </div>
+                    <div class="form-group">
+                    <label for="dish"> Dish:</label>
+                    <input type="text" class="form-control" name="dish" placeholder="dish...">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="recipe">Recipe:</label>
+                    <input type="text" class="form-control" name="recipe" placeholder="recipe...">
+                  </div>
+                  <div class="form-group">
+                    <label for="method">Method:</label>
+                    <input type="text" class="form-control" name="method" placeholder="method...">
+                  </div>
+                  <button type="submit" class="btn btn-success pull-right">Edit</button>
+            </form><!--end of name-->
+            </div>
+        </div>
+    </div><!--end of container-->
+
+    <footer class="container-fluid bg-4 text-center">
+      <p>Yummy Recipes Developed By James Muriuki <a href="https://web.facebook.com/TechBase.co/">Techbase</a></p> 
+    </footer>
+    
+    <script src="../static/js/bootstrap.js"></script>
+    <script src="../static/js/jquery.min.js"></script>
+</body>
+</html>
