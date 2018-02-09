@@ -3,6 +3,10 @@
     padding: 0;
 } 
 
+nav.navbar:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /**resizing the logo to fit navbar**/
 .logo{
     height: 50px;
@@ -13,9 +17,13 @@
 /**Change body background**/
 body{
     
-  background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
+    font: 16px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+    
 }
 /**add padding from navbar**/
 #editForm{
@@ -39,11 +47,13 @@ width: 550px;
     background-color: #2f2f2f;
     color: #ffffff;
     margin-top: 190px;
+    padding: 20px;
 }
 
 .bg-1 {
     background-color: #2f2f2f;
     color: #ffffff;
     margin-top: 300px;
+    padding:20px;
     
 }
