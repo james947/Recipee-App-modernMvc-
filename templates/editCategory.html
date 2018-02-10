@@ -13,14 +13,16 @@
                 <a class="navbar-brand" href="#"><img src="../static/images/img.png" class="logo"></a>
             </div>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Yummy Recipes</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="addCategory.html">Add Category</a></li>
+            <li><a href="viewRecipe.html">My Recipe</a></li>
+            <li><a href="">Logout</a></li>
         </ul> <!--end of navbar-->
         </div>
         </nav>
         <div class="container">
         <div class="row" id="editForm">
+            <div class="col-sm-4"></div>
            <div class="col-sm-8">
             <form class="sForm" action="">
                   <div class="form-group">
@@ -33,12 +35,12 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="recipe">Recipe:</label>
-                    <input type="text" class="form-control" name="recipe" placeholder="recipe...">
+                    <label for="recipe">Ingridients:</label>
+                    <textarea class="form-control" rows="5" name="comment" placeholder="recipe..."></textarea>
                   </div>
                   <div class="form-group">
                     <label for="method">Method:</label>
-                    <input type="text" class="form-control" name="method" placeholder="method...">
+                    <textarea class="form-control" rows="5" name="comment" placeholder="method..."></textarea>
                   </div>
                   <button type="submit" class="btn btn-success pull-right">Edit</button>
             </form><!--end of name-->
