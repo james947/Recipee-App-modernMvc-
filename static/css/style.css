@@ -22,7 +22,7 @@ body{
     background-repeat: no-repeat; 
     font: 16px "Montserrat", sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
+    background-attachment: fixed;
     
 }
 /**add padding from navbar**/
@@ -57,3 +57,12 @@ width: 550px;
     padding:20px;
     
 }
+
+.bg-2 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    margin-top: 500px;
+    padding:20px;
+    
+}
+
