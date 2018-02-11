@@ -1,5 +1,5 @@
 # This script starts the app
-from app import app
+from application.views import app
 
-if  __name__ == "main":
+if  __name__ == "__main__":
     app.run(debug="True")
