@@ -43,12 +43,6 @@ width: 550px;
     color: white;
 }
 
-.bg-4 { 
-    background-color: #2f2f2f;
-    color: #ffffff;
-    margin-top: 190px;
-    padding: 20px;
-}
 
 .bg-1 {
     background-color: #2f2f2f;
@@ -66,3 +60,9 @@ width: 550px;
     
 }
 
+ .bg-4 { 
+            background-color: #2f2f2f;
+            color: #ffffff;
+            margin-top: 190px;
+            padding: 20px;
+        }
