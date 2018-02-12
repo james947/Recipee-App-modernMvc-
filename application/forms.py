@@ -2,7 +2,7 @@
 
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, validators, SubmitField, TextAreaField
-#Adds the user to the list
+#Authenticates the user to the list
 class SignupForm(FlaskForm):
     
     #firstname variable
