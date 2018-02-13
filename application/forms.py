@@ -4,20 +4,6 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, validators, SubmitField, TextAreaField
 #Authenticates the user to the list
 class SignupForm(FlaskForm):
-    
-    #firstname variable
-    firtsname = StringField('firstname',[
-        validators.data_required(),
-        validators.length(min=4 ,max=10)
-
-    ] )
-
-    #lastname variable
-    lastname = StringField('lastname',[
-        validators.data_required(),
-        validators.length(min=4 ,max=10)
-
-    ] )
 
     #username variable
     username = StringField('username',[
