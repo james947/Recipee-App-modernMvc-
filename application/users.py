@@ -10,15 +10,15 @@ class Users(object):
         self.username = username
         self.Password = Password
 
-        def add_user(self,firstname,lastname,email,username,password):
+        def add_user(self,email,username,password):
             #add users to the app
             if email not in USERS:
-                USERS[email] = {"firstname":firstname,"lastname":lastname,"email":email, "username":username, "password":password}
+                USERS[email] = {"email":email, "username":username, "password":password}
                 return "user added successfully"
             return "Sorry, Email already registered"
 
 
-        def get_user (self, firstname,lastname,email,username,password):
+        def get_user (self,email,password):
             #get user from the list
             if email in USERS:
                 current_user = USERS[email]
