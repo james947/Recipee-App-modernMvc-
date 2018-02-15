@@ -28,25 +28,28 @@ Installing
 ----
 To install clone or download the app from the repo and follow the instructions:
 
-```navigate to the path you want to install the app and create  new folder
+``` 
+navigate to the path you want to install the app and create  new folder
 
 eg. C:\Users\jay>mkdir flaskapp
     C:\Users\jay>cd flaskapp
     C:\Users\jay\flaskapp
-    #create virtual env
+    create virtual env
     C:\Users\jay\flaskapp virtualenv env
-    #fire up git and clone the Repository
+    fire up git and clone the Repository
     $ git clone https://github.com/james947/Recipee-App-modernMvc-/tree/develop
 
-    #move to the env activate  then move back to root
+    move to the env activate  then move back to root
     C:\Users\jay\flaskapp\env\scripts\activate
 
-    #run the requirements file
+    run the requirements file
     (env)C:\Users\jay\flaskapp pip install -r requirements.txt
 
     #done 
-     
-    execute run.py```
+    execute run.py
+
+     ```
+---
 
 Running Tests
 ---
@@ -68,7 +71,8 @@ Versioning
 ---
 
 Authors
-===
+---
+* James Muriuki
 
 License
 ---
