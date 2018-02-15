@@ -15,7 +15,6 @@ class SignupForm(FlaskForm):
     #emailvariable
     email = StringField('email',[
         validators.data_required(),
-        validators.length(min=4 ,max=10),
         validators.regexp(r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)",
                 flags=0, message="Invalid email address"
             )
@@ -23,7 +22,7 @@ class SignupForm(FlaskForm):
     ] )
 
     #password Variable
-    Password = PasswordField('password', [
+    password = PasswordField('password', [
         validators.data_required(),
         validators.length(min=8, message="The minimun required lenght is 8"),
     ])
