@@ -28,8 +28,8 @@ Installing
 ----
 To install clone or download the app from the repo and follow the instructions:
 
-``` 
-navigate to the path you want to install the app and create  new folder
+
+``navigate to the path you want to install the app and create  new folder
 
 eg. C:\Users\jay>mkdir flaskapp
     C:\Users\jay>cd flaskapp
@@ -46,9 +46,11 @@ eg. C:\Users\jay>mkdir flaskapp
     (env)C:\Users\jay\flaskapp pip install -r requirements.txt
 
     #done 
-    execute run.py
+    execute run.py``
 
-     ```
+    
+
+     
 ---
 
 Running Tests
