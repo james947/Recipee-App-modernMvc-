@@ -1,3 +1,4 @@
+{% from "_formhelpers.html import render_field" %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,9 +14,9 @@
                 <a class="navbar-brand" href="#"><img src="../static/images/img.png" class="logo"></a>
             </div>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Yummy Recipes</a></li>
-            <li><a href="index.html">Login</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="{{url_for("index")}}">Yummy Recipes</a></li>
+            <li><a href="{{url_for("index")}}">Login</a></li>
+            <li><a href="{{url_for("signup")}}">Sign Up</a></li>
         </ul> <!--end of navbar-->
         </div>
         </nav>
@@ -23,26 +24,20 @@
         <div class="row" id="editForm">
           <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor reiciendis ad, atque eveniet sed saepe omnis soluta. In dignissimos eos minima, explicabo! Illum vero qui soluta maxime quo possimus, laudantium?</div>
            <div class="col-sm-8">
-            <form class="sForm" action="">
+            <form class="sForm" method="POST" action="{{url_for("signup")}}">
                   <div class="form-group">
-                    <label for="firstname">First Name:</label>
-                    <input type="firstname" class="form-control" name="firstname">
+                    {{ form.csrf_token }}
+                    {{ render_field(form.email, class="form-control", placeholder="Email...") }}
                   </div>
                     <div class="form-group">
-                    <label for="Lastname"> Last Name:</label>
-                    <input type="lastname" class="form-control" name="lastname">
+                        {{ render_field(form.username, class="form-control", placeholder="Username...") }}
                   </div>
 
                   <div class="form-group">
-                    <label for="username">Username:</label>
-                    <input type="username" class="form-control" name="username">
-                  </div>
-                  <div class="form-group">
-                    <label for="pwd">Password:</label>
-                    <input type="password" class="form-control" name="password">
+                    {{ render_field(form.password, class="form-control", placeholder="Password...") }}
                   </div>
                   <button type="submit" class="btn btn-primary pull-right">Get Started</button>
-                <p>Already registered?<a href="index.html">Login</a></p>
+                <p>Already registered?<a href="{{url_for("index")}}">Login</a></p>
             </form><!--end of name-->
             </div>
         </div>
