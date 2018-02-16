@@ -1,6 +1,8 @@
 RECIPEE APP {{MODERN~MVC}}
 ===
 [![Build Status](https://travis-ci.org/james947/Recipee-App-modernMvc-.svg?branch=develop)](https://travis-ci.org/james947/Recipee-App-modernMvc-)
+
+[![Coverage Status](https://coveralls.io/repos/github/james947/Recipee-App-modernMvc-/badge.svg?branch=master)](https://coveralls.io/github/james947/Recipee-App-modernMvc-?branch=master)
 ---
 ![img](https://imgur.com/V2Tm33S.png)
 
