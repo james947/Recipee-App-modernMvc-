@@ -85,5 +85,7 @@ License
 ---
 
 Acknowledgments
-===
+=== 
+1. James Muriuki
+2. YoutubeUniversity
 
