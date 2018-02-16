@@ -2,7 +2,7 @@ RECIPEE APP {{MODERN~MVC}}
 ====
 ![img](https://imgur.com/V2Tm33S.png)
 
-This is a web app whci basically allows users Manage their recipes 
+This is a web app which allows users Manage their recipes 
 
 Features
 ===
