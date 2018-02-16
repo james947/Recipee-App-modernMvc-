@@ -1,6 +1,7 @@
 RECIPEE APP {{MODERN~MVC}}
-==== 
+===
 [![Build Status](https://travis-ci.org/james947/Recipee-App-modernMvc-.svg?branch=develop)](https://travis-ci.org/james947/Recipee-App-modernMvc-)
+---
 ![img](https://imgur.com/V2Tm33S.png)
 
 This is a web app which allows users Manage their recipes 
