@@ -57,6 +57,7 @@ navigate to the path you want to install the app and create  new folder
 
 Running Tests
 ---
+Locate the tests in the application folder 
 
 
 Deployment
@@ -70,6 +71,8 @@ Built With
 
 Contributing
 ---
+Contributing to the development of this app is allowed just fork it!!!
+Do changes and create a pull request...
 
 Versioning
 ---
