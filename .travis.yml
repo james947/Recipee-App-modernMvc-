@@ -5,4 +5,4 @@ python :
   - "3.6"
 cache: pip
 install: "pip install -r requirements.txt"
-script: application/users_test.py
+script: application/users_tests.py
