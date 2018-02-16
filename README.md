@@ -1,5 +1,7 @@
 RECIPEE APP {{MODERN~MVC}}
 ====
+![img](https://imgur.com/V2Tm33S)
+
 This is a web app whci basically allows users Manage their recipes 
 
 Features
@@ -26,7 +28,7 @@ For the app to work You need to install the following:
 
 Installing
 ----
-### for *windows* Users 
+### For *windows* Users 
 To install clone or download the app from the repo and follow the instructions:
 
 navigate to the path you want to install the app and create  new folder
